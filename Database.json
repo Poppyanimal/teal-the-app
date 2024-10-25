@@ -1,0 +1,30 @@
+{
+ "categories": [
+  {
+   "categoryName": "Food (Test)",
+   "categoryID": "test_food"
+  },
+  {
+   "categoryName": "Bills (Test)",
+   "categoryID": "test_bills"
+  }
+ ],
+ "transactions": [
+  {
+   "payee": "Pete's",
+   "amount": 45.32,
+   "month": 10,
+   "year": 2024,
+   "category": "test_food",
+   "day": 20
+  },
+  {
+   "payee": "Water",
+   "amount": 18.21,
+   "month": 10,
+   "year": 2024,
+   "category": "test_bills",
+   "day": 17
+  }
+ ]
+}
