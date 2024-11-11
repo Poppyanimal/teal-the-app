@@ -4,11 +4,16 @@ import java.util.List;
 
 public class Main
 {
+    static boolean ogDashboard = true;
+
     public static void main(String[] args)
     {
         testDatabaseReadWrite();
 
-        TealAppDashboard.main(args);
+        if(ogDashboard)
+            TealAppDashboard.main(args);
+        else
+            TealApp.main(args);
     }
 
 
